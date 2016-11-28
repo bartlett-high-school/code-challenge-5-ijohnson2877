@@ -1,24 +1,17 @@
 <!-- Code Challenge #5 | 25 Points -->
 
 <!-- Directions:
-
 Step 1:
 Select all of this document, copy and paste it into a new document in sublime text.
-
 Step 2:
 Inside of the .container div, insert typography tags h2, h3, h4, h5, h6. Add some content inside of each tag. 
-
 Step 3: 
 After each h tag, add a p tag with some content inside of it.
-
 Step 3:
 In the style tag, write some CSS for each of the tags you added to create a well-designed typography style tile. Consider things like font-family, font-size, color, letter-spacing, line-height, etc.
-
 Step 4: 
 Paste all the code from your sublime document back into github and commit your changes.
-
 BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
-
 -->
 
 <!DOCTYPE html>
@@ -29,7 +22,45 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 			body {
 				margin: 0;
 				padding: 0;
+				background-color: gray;
 			}
+			.container {
+				background-color: #fff;
+				width: 80%;
+				padding: 5%;
+				margin: 0 5%;
+			}
+			h2 {
+				margin: 0;
+				font-family: Arial, sans-serif;
+				letter-spacing: .15em;
+
+			}
+			h3 {
+				margin: 0;
+				font-family: Arial, sans-serif;
+				letter-spacing: .15em;
+				
+			}
+			h4 {
+				margin: 0;
+				font-family: Arial, sans-serif;
+				letter-spacing: .15em;
+				text-transform: uppercase;
+			}
+			h5 {margin: 0;
+				font-family: Arial, sans-serif;
+				letter-spacing: .15em;
+			}
+			h6 {margin: 0;
+				font-family: Arial, sans-serif;
+				letter-spacing: .15em;
+			}
+
+			p {
+				margin: 0 0 30px 0;
+			}
+				
 			header {
 				padding: 50px 0;
 			}
@@ -47,6 +78,18 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 		</header>
 		<section>
 			<div class="container">
+			<h2>Chicken Nuggets</h2>
+				<p>chicken Tendies</p>
+			<hr>
+			<h3>My amazon wishlist</h3>	
+				<p>Roast beeft<p>
+			<h4>Someone buy me a Bentely</h4>
+				<p>Or any car really</p>
+			<h5>Honestly some food would be cool</h5>
+				<p>Like some raviolio</p>
+			<hr>	
+			<h6>French Fries</h6>
+				<p>heckk yeah</p>
 			</div>
 		</section>
 		<footer>
